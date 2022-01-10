@@ -1,0 +1,11 @@
+uuid: f69e5223-7b81-4893-935f-198ca50a5a8e
+langcode: fr
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.canal
+id: taxonomy_term.canal
+target_entity_type_id: taxonomy_term
+target_bundle: canal
+default_langcode: site_default
+language_alterable: false

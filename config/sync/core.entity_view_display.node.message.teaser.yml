@@ -1,0 +1,29 @@
+uuid: ae5f4497-10dd-441f-ac81-5fd486dd7547
+langcode: fr
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.message.field_canal
+    - field.field.node.message.field_date_d_envoi
+    - field.field.node.message.field_envoye
+    - field.field.node.message.field_message_a_envoyer
+    - node.type.message
+  module:
+    - user
+id: node.message.teaser
+targetEntityType: node
+bundle: message
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_canal: true
+  field_date_d_envoi: true
+  field_envoye: true
+  field_message_a_envoyer: true
+  langcode: true

@@ -1,0 +1,23 @@
+uuid: ac926709-b4ab-4de8-bb43-68b31b5d324e
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_envoye
+    - node.type.message
+id: node.message.field_envoye
+field_name: field_envoye
+entity_type: node
+bundle: message
+label: Envoyé
+description: 'est ce que le message à été envoyé?'
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Envoyé
+  off_label: 'Pas envoyé'
+field_type: boolean

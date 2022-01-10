@@ -1,0 +1,18 @@
+uuid: c7378192-9449-4af4-a95c-aeb586da8737
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.message
+id: node.message.title
+field_name: title
+entity_type: node
+bundle: message
+label: 'Titre du message'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

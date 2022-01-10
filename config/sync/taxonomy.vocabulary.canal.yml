@@ -1,0 +1,8 @@
+uuid: b33de632-5a3a-4f6d-bfa2-5f918bcf0bd7
+langcode: fr
+status: true
+dependencies: {  }
+name: Canal
+vid: canal
+description: 'canal pour le message'
+weight: 0

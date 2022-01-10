@@ -1,0 +1,23 @@
+uuid: 38c5fbc0-01be-4276-9232-fd33bbf5c158
+langcode: fr
+status: true
+dependencies:
+  config:
+    - block_content.type.footer_perso
+    - field.field.block_content.footer_perso.body
+  module:
+    - text
+id: block_content.footer_perso.default
+targetEntityType: block_content
+bundle: footer_perso
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  langcode: true

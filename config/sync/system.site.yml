@@ -1,0 +1,15 @@
+_core:
+  default_config_hash: l58O_yEXSo-SeJi19LXdzTU1tNJG3lmnIhCitRkM1tk
+langcode: fr
+uuid: 5ddfae40-b561-4c20-8688-90b5356092d4
+name: Messager
+mail: drupal.solr@gmail.com
+slogan: 'envoi de messages'
+page:
+  403: ''
+  404: ''
+  front: /user/login
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: fr
+mail_notification: ''

@@ -1,0 +1,19 @@
+uuid: 87731c8a-3ba7-4c1c-bba1-f12ccd96f788
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_message_a_envoyer
+    - node.type.message
+id: node.message.field_message_a_envoyer
+field_name: field_message_a_envoyer
+entity_type: node
+bundle: message
+label: 'message à envoyer'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

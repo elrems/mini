@@ -1,0 +1,40 @@
+uuid: b22e55c6-0b10-4612-847d-03812556aa44
+langcode: fr
+status: true
+dependencies:
+  config:
+    - block_content.type.footer_perso
+    - field.field.block_content.footer_perso.body
+  module:
+    - text
+id: block_content.footer_perso.default
+targetEntityType: block_content
+bundle: footer_perso
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 26
+    region: content
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+      show_summary: false
+    third_party_settings: {  }
+  info:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+hidden: {  }

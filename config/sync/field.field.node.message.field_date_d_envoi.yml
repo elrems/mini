@@ -1,0 +1,21 @@
+uuid: e8443142-e21b-47eb-b5fa-1f67367aa9ed
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_date_d_envoi
+    - node.type.message
+id: node.message.field_date_d_envoi
+field_name: field_date_d_envoi
+entity_type: node
+bundle: message
+label: 'date d''envoi'
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: 1641826389
+default_value_callback: ''
+settings: {  }
+field_type: timestamp

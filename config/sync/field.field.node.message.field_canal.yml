@@ -1,0 +1,33 @@
+uuid: 889ba624-e421-45bf-baaf-f9d7754458d7
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_canal
+    - node.type.message
+    - taxonomy.vocabulary.canal
+  content:
+    - 'taxonomy_term:canal:42af1102-b8a6-4b42-904f-8c3a6fe6c394'
+id: node.message.field_canal
+field_name: field_canal
+entity_type: node
+bundle: message
+label: Canal
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    target_uuid: 42af1102-b8a6-4b42-904f-8c3a6fe6c394
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      canal: canal
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

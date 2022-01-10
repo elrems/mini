@@ -1,0 +1,18 @@
+uuid: 901c5c52-1444-46d5-9d3e-c337125f292e
+langcode: fr
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_envoye
+field_name: field_envoye
+entity_type: node
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

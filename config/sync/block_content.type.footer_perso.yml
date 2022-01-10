@@ -1,0 +1,8 @@
+uuid: 3d0fd900-11a2-4907-82a8-9958f737f3da
+langcode: fr
+status: true
+dependencies: {  }
+id: footer_perso
+label: 'Footer Perso'
+revision: 0
+description: ''

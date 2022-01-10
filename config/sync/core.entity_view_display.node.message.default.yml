@@ -1,0 +1,59 @@
+uuid: a4a938f5-bdc5-48ee-be71-c686fdaf9fc5
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.node.message.field_canal
+    - field.field.node.message.field_date_d_envoi
+    - field.field.node.message.field_envoye
+    - field.field.node.message.field_message_a_envoyer
+    - node.type.message
+  module:
+    - user
+id: node.message.default
+targetEntityType: node
+bundle: message
+mode: default
+content:
+  field_canal:
+    type: entity_reference_label
+    label: inline
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_date_d_envoi:
+    type: timestamp
+    label: inline
+    settings:
+      date_format: medium
+      custom_date_format: ''
+      timezone: ''
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_envoye:
+    type: boolean
+    label: inline
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_message_a_envoyer:
+    type: basic_string
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  langcode: true
